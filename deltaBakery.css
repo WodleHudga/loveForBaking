@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
+
+.page_404{ padding:40px 0; background:#fff; font-family: 'Arvo', serif;
+}
+
+.page_404  img{ width:100%;}
+
+.four_zero_four_bg{
+
+    background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    height: 400px;
+    background-position: center;
+}
+
+
+.four_zero_four_bg h1{
+    font-family: "Cabin Sketch", cursive;
+
+}
+
+.four_zero_four_bg h3{
+    font-size:80px;
+}
+
+.link_404{
+    color: #fff!important;
+    padding: 10px 20px;
+    background: #39ac31;
+    margin: 20px 0;
+    display: inline-block;}
+.contant_box_404{ margin-top:-50px;}
+
+.logo{
+    font-size: 33px;
+    font-family: "Cabin Sketch", cursive;
+    position: absolute;
+    left: 10px;
+
+}
+.nav ul{
+    height: 60px;
+    width: 60%;
+    color: deeppink;
+    position: relative;
+    left: 1px;
+    display: flex;
+}
+.nav ul li{
+    display: flex;
+    flex-direction: column;
+    padding: 7px 3% 20px 3%;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+    left: 620px;
+    font-family: 'Cabin Sketch', cursive;
+    position: relative;
+    transition: transform 0.3s ease-in;
+}
+.nav ul li:hover{
+    color: #000;
+    transform: scale(1.0);
+    cursor: pointer;
+}
+.nav ul li a{
+    color: #000;
+
+    text-decoration: none;
+
+}
+.nav ul li::after{
+    content: "";
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 18px;
+    right: 0;
+    width: 0;
+    height: 2px;
+    transform: scaleX(1);
+    transition: all 0.62s ease-out;
+}
+.nav ul li:hover::after{
+    left: 0;
+    width: 100%;
+}
+.nav2{
+    position: relative;
+    top: 25%;
+}
+.nav2 ul{
+    height: 60px;
+    width: 60%;
+    color: deeppink;
+    position: relative;
+    left: -130px;
+}
+.nav2 ul li{
+    display: flex;
+    flex-direction: row;
+    margin: 110px;
+}
+.nav2 ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+    transition:  transform 0.3s ease-in;
+    font-family: "Cabin Sketch", cursive;
+    list-style-type: none;
+
+}

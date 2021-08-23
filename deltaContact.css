@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    background-color: lightslategrey;
+}
+.gs-reveal{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+
+
+
+}
+.card{
+    height: 495px;
+    width: 490px;
+    background-color: #f7f7f9;
+    border-radius: 10px;
+    position: absolute;
+    top: 22%;
+    left: 10%;
+
+}
+.list {
+    position: absolute;
+    right: -280px;
+    top: 330px;
+    background-color: lightslategrey;
+    width: 45%;
+    transform: rotate(90deg);
+}
+.list ul{
+    display: flex;
+    padding: 10px 10px 10px 10px ;
+    height: 40px;
+    width: 30%;
+
+
+
+}
+.list ul li{
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+}
+.list ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+    transition:  transform 0.3s ease-in;
+}
+.list ul li a:hover{
+    transform: scale(1.1);
+}
+.logo{
+    font-size: 33px;
+    font-family: "Cabin Sketch", cursive;
+    position: absolute;
+    left: 10px;
+
+}
+.nav ul{
+    height: 60px;
+    width: 60%;
+    color: deeppink;
+    position: relative;
+    left: 1px;
+    display: flex;
+}
+.nav ul li{
+    display: flex;
+    flex-direction: column;
+    padding: 7px 3% 20px 3%;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+    left: 620px;
+    font-family: 'Cabin Sketch', cursive;
+    position: relative;
+    transition: transform 0.3s ease-in;
+}
+.nav ul li:hover{
+    color: #000;
+    transform: scale(1.0);
+    cursor: pointer;
+}
+.nav ul li a{
+    color: #000;
+
+    text-decoration: none;
+
+}
+.nav ul li::after{
+    content: "";
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 18px;
+    right: 0;
+    width: 0;
+    height: 2px;
+    transform: scaleX(1);
+    transition: all 0.62s ease-out;
+}
+.nav ul li:hover::after{
+    left: 0;
+    width: 100%;
+}
+.text h1{
+    position: absolute;
+    left: 45%;
+    top: 23%;
+    font-size: 44px;
+}
+.text p{
+    position: absolute;
+    left: 45%;
+    top: 37%;
+    height: 8em;
+    width: 18em;
+}
+
+
+

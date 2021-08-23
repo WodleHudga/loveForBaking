@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
+body, html{
+    margin: 0;
+    background: linear-gradient(90deg,#f7f7f9 50%, #e1e1e3 0%);
+    font-family: 'Cabin Sketch', cursive;
+    height: 700px;
+    width: 100%;
+
+}
+.logo{
+    font-size: 33px;
+    font-family: "Cabin Sketch", cursive;
+    position: absolute;
+    left: 10px;
+
+}
+.nav ul{
+    height: 60px;
+    width: 60%;
+    color: deeppink;
+    position: relative;
+    left: 1px;
+    display: flex;
+}
+.nav ul li{
+    display: flex;
+    flex-direction: column;
+    padding: 7px 3% 20px 3%;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+    left: 620px;
+    font-family: 'Cabin Sketch', cursive;
+    position: relative;
+    transition: transform 0.3s ease-in;
+}
+.nav ul li:hover{
+    color: #000;
+    transform: scale(1.0);
+    cursor: pointer;
+}
+.nav ul li a{
+    color: #485560;
+    text-decoration: none;
+
+}
+.nav ul li::after{
+    content: "";
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 18px;
+    right: 0;
+    width: 0;
+    height: 2px;
+    transform: scaleX(1);
+    transition: all 0.62s ease-out;
+}
+.nav ul li:hover::after{
+    left: 0;
+    width: 100%;
+}
+.img-baker{
+    position: absolute;
+    left: 49%;
+    top: 95px;
+    box-shadow: -40px -11px 14px -6px rgba(247,247,249,0.33);
+    -webkit-box-shadow: -40px -11px 14px -6px rgba(247,247,249,0.33);
+    -moz-box-shadow: -40px -11px 14px -6px rgba(247,247,249,0.33);
+    background: linear-gradient(90deg,#f7f7f9 80%, #e1e1e3 0%);
+}
+.img-baker image{
+    height: auto;
+    width: 15em;
+    z-index: 5;
+}
+.box{
+    position: absolute;
+    bottom: 25px;
+    list-style-type: none;
+
+
+}
+.box ul{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 155px;
+    list-style-type: none;
+}
+.box ul li{
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 0 10% 0 10%;
+    margin: 0 30px 0 30px;
+    transition: 0.5s ease-in;
+}
+.box ul li:hover{
+    transform: scale(1.1);
+}
+.box ul li a{
+    text-decoration: none;
+    color: #5e6c7a;
+    text-align: center;
+   position: relative;
+    bottom: -50px;
+
+
+
+}
+.color{
+    height: 148px;
+    width: 768px;
+    background-color: #E1E1E3;
+    position: absolute;
+    left: 0;
+    top: 582px;
+
+}
+#whiteC{
+    height: 148px;
+    width: 766px;
+    left: 710px;
+    top: 582px;
+    background-color: #f7f7f9;
+}
+.text{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 200;
+    position: absolute;
+    left: 60px;
+    top: 220px;
+
+}

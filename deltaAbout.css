@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
+body {
+    font-weight: 300;
+    background-color: lightslategrey;
+}
+.ipsType_right {
+    text-align: right;
+}
+.ipsType_center {
+    text-align: left;
+}
+.cInnerContent {
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ipsSpacer_bottom_double {
+    margin-bottom: 30px;
+}
+.ipsGrid {
+    display: inline-block;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ipsGrid::before, .ipsGrid::after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+.ipsGrid > [class*="ipsGrid_span"] {
+    display: block;
+    width: 100%;
+    min-height: 30px;
+    box-sizing: border-box;
+}
+.ipsGrid > .ipsGrid_span5 {
+    width: 40.42553191489362%;
+}
+.ipsGrid > .ipsGrid_span7 {
+    width: 57.44680851063829%;
+}
+.ipsGrid > [class*="ipsGrid_span"] {
+    float: left;
+    margin-left: 2%;
+}
+.ipsGrid > [class*="ipsGrid_span"]:first-child {
+    margin-left: 0;
+}
+.feature {
+    display: flex;
+    align-items: center;
+}
+.card {
+    margin-bottom: 30px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #ffffff;
+    /*box-shadow: 1px 1px 5px 1px #CCCCCC;*/
+    /*   transition: 0.3s; */
+}
+.featured-image-container .card {
+    height: 0;
+    padding: 10px 10px calc(100% - 10px);
+}
+h2.heading_large {
+    font-size: 1.8em;
+}
+img {
+    max-width: 100%;
+}
+
+.header-section {
+    margin: 200px auto;
+}
+
+.gs_reveal {
+    opacity: 0;
+    visibility: hidden;
+    will-change: transform, opacity;
+}
+.logo{
+    font-size: 33px;
+    font-family: "Cabin Sketch", cursive;
+    position: absolute;
+    left: 10px;
+
+}
+.nav ul{
+    height: 60px;
+    width: 60%;
+    color: deeppink;
+    position: relative;
+    left: 1px;
+    display: flex;
+}
+.nav ul li{
+    display: flex;
+    flex-direction: column;
+    padding: 7px 3% 20px 3%;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+    left: 620px;
+    font-family: 'Cabin Sketch', cursive;
+    position: relative;
+    transition: transform 0.3s ease-in;
+}
+.nav ul li:hover{
+    color: #000;
+    transform: scale(1.0);
+    cursor: pointer;
+}
+.nav ul li a{
+    color: #1d2025;
+    text-decoration: none;
+
+}
+.nav ul li::after{
+    content: "";
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 18px;
+    right: 0;
+    width: 0;
+    height: 2px;
+    transform: scaleX(1);
+    transition: all 0.62s ease-out;
+}
+.nav ul li:hover::after{
+    left: 0;
+    width: 100%;
+}
+.quote{
+    font-family: "Cabin Sketch", cursive;
+    font-size: 57px;
+    color: #f7f7f9;
+    position: absolute;
+    left: 65%;
+    top: 20%;
+
+}
